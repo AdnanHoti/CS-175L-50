@@ -9,6 +9,11 @@ total_buy_price = shares_bought * purchase_price
 total_buy_commission_amount = total_buy_price * commission_rate
 total_sell_price = num_sold * selling_price
 total_sell_commission_amount = total_sell_price * commission_rate
+shares_bought=int(input('How many shares did you purchase?:'))
+purchase_price=float(input('What was the purchase price?:'))
+selling_price=float(input('What was the selling price?:'))
+commission_rate=float(input('What was the commission rate?:'))
+
 
 print('The amount of money Joe paid for the stock is', total_buy_price)
 print('The amount of commission Joe paid his broker when he bought the stock is', total_buy_commission_amount)
